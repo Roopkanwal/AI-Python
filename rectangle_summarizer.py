@@ -1,7 +1,7 @@
 import csv
 from statistics import mean
 
-# Open and read the contents of CSV file
+# Open and Read the contents of CSV file
 with open("DATA475_lab_rectangles_data.csv",newline="") as f:
     reader = csv.reader(f)
     next(reader)
