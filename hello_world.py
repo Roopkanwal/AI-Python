@@ -1,13 +1,13 @@
-# Ask for user's name
+# Ask for User's name
 name=input("What is your name?")
 
-# Ask for user's year of birth
+# Ask for User's year of birth
 birth_year=input("When you were born?")
 
-# Greet user with Hello
+# Greet User with Hello
 print(f"Hello,{name}")
 
-# Calculate and tell age of user
+# Calculate and tell age of User
 from datetime import datetime
 this_year = datetime.now().year
 age=this_year-int(birth_year)
